@@ -98,7 +98,7 @@
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Keerthika B&#xA;CSE - B&#xA;220701126" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="608,1895.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Sanjana Shree S&#xA;CSE - D&#xA;220701245" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1194,1631" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="tariffType" />
       <Variable x:TypeArguments="x:String" Name="billingCycle" />
@@ -111,32 +111,32 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:Comment sap:VirtualizedContainerService.HintSize="545.6,94.4" sap2010:WorkflowViewState.IdRef="Comment_1" Text="Name : Keerthika B,&#xA;Department and Section : CSE - B,&#xA;Roll Number : 220701126,&#xA;Year : III" />
-    <Sequence sap:VirtualizedContainerService.HintSize="545.6,1588.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <ui:Comment sap:VirtualizedContainerService.HintSize="489,126" sap2010:WorkflowViewState.IdRef="Comment_1" Text="Name : Sanjana Shree S,&#xA;Department and Section : CSE - D,&#xA;Roll Number : 220701245,&#xA;Year : III" />
+    <Sequence sap:VirtualizedContainerService.HintSize="489,1425" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="483.2,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Register Number : 220701126 &quot; + Environment.NewLine + &quot;Name : Keerthika B &quot; + Environment.NewLine + &quot;Branch : CSE &quot; +  Environment.NewLine + &quot;Section : B&quot;+  Environment.NewLine + &quot;Year : III &quot;]" />
-      <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="483.2,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter the number of consumed units : " Title="Consumed Units">
+      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="455,117" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Register Number : 220701126 &quot; + Environment.NewLine + &quot;Name : Keerthika B &quot; + Environment.NewLine + &quot;Branch : CSE &quot; +  Environment.NewLine + &quot;Section : B&quot;+  Environment.NewLine + &quot;Year : III &quot;]" />
+      <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="455,271" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter the number of consumed units : " Title="Consumed Units">
         <ui:InputDialog.Result>
           <OutArgument x:TypeArguments="x:String">[consumedUnits]</OutArgument>
         </ui:InputDialog.Result>
       </ui:InputDialog>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: TANGEDCO Online Payment" sap:VirtualizedContainerService.HintSize="483.2,1069.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5fd22ea9-8474-43ec-8741-9c70e07d30d7" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: TANGEDCO Online Payment" sap:VirtualizedContainerService.HintSize="455,954" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5fd22ea9-8474-43ec-8741-9c70e07d30d7" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,852.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="421,714" sap2010:WorkflowViewState.IdRef="Sequence_4">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Consumed Units'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="5fd22ea9-8474-43ec-8741-9c70e07d30d7" Text="[consumedUnits]" Version="V3">
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Consumed Units'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="5fd22ea9-8474-43ec-8741-9c70e07d30d7" Text="[consumedUnits]" Version="V3">
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable BrowserURL="https://www.tnebnet.org/awp/tariffMaster?execution=e1s1" DesignTimeRectangle="759, 678, 170, 28" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT calculator:unit'" FullSelectorArgument="&lt;webctrl tableRow='5' tag='TABLE' /&gt;&lt;webctrl id='calculator:unit' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='calculator:unit' type='text' tag='INPUT' class='ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ui-state-focus' aaname='' /&gt;" Guid="4560b9d3-b640-4a75-8b6a-fd079b475050" ImageBase64="" InformativeScreenshot="4f1025a59c0de1fa75dd0075c9e7bef1.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TANGEDCO Online Payment' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
